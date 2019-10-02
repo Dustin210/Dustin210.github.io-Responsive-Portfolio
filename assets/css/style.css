@@ -161,17 +161,54 @@ footer {
 }
 
 
-/*could not figure out how to get the tags for pictures set correctly*/
-/*portfolio*/
-.lorem {
-    width: 260px;
-    overflow: auto;
-    position: relative;
-    float: left;
-    margin:15px 0 25px;
-
 }
 
 .text {
     height: 200px;
 }
+
+@media only screen and (max-width: 980px) {
+.container {
+    padding: 0 20px;
+    max-width: 768px;
+}
+#main-container {
+    padding-top: 130px;
+}
+.main-section {
+    max-width: 420px;
+}
+}
+
+
+@media only screen and (max-width: 768px) {
+.main-section, .sidebar {
+max-width: 100%;
+}
+
+#main-container {
+    overflow: auto;
+}
+}
+
+@media only screen and (max-width: 640px) {
+#tophead {
+    position: static;
+    margin-bottom: 30px;
+}
+
+header.container {
+    padding: 0%
+}
+#main-container {
+    padding-top: 5px;
+}
+#logo {
+    width: 100%;
+}
+
+
+}
+
+
+
